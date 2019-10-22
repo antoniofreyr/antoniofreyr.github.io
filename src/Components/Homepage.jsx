@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 class HomePage extends Component {
     render() {
         return (
-            <div>
-                <div>
+            <div className="HomeScreen">
+                <h1>
                     Arnar Rafvirki
-                </div>
-                <div>
+                </h1>
+                <h2>
                     Sími: 861-3515
-                </div>
-                <div>
+                </h2>
+                <h3>
                     Netfang: arnar@arnar.is
-                </div>
-                <div>
+                </h3>
+                <h3>
                     Staðsetning: Hvanneyri, 311 Borgarnes
-                </div>
+                </h3>
             </div>
         )
     }

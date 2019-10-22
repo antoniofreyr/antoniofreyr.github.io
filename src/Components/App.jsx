@@ -4,6 +4,10 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponent/NavBar';
 import Footer from './FooterComponent/Footer';
+import Verkefni from './Verkefni';
+import Starfsmenn from './Starfsmenn';
+import Samstarfsaðilar from './Samstarfsaðilar';
+import Birgjar from './Birgjar';
 class App extends Component {
     render() {
         return (
@@ -11,6 +15,10 @@ class App extends Component {
                 <div>
                     <NavBar />
                     <Route name="home" exact path="/" component={HomePage} />
+                    <Verkefni />
+                    <Starfsmenn />
+                    <Samstarfsaðilar />
+                    <Birgjar />
                     <Footer />
                 </div>
             </Router>
