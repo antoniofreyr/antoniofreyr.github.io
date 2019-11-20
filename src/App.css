@@ -1,3 +1,10 @@
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
 header {
 	background-color: tan;
 	width: 100%;
@@ -16,6 +23,8 @@ footer {
 	height: 50px;
 	background-color: grey;
 	color: white;
+	text-align: center;
+	margin-top: auto;
 }
 
 ul#headerButtons {
@@ -25,7 +34,7 @@ ul#headerButtons {
 	text-align: center;
 }
 
-ul#headerButtons li {
+.navbuttons {
 	background-color: rgb(167, 167, 167) ;
 	border: solid 2px;
 	border-color: rgb(110, 110, 110);
@@ -41,11 +50,11 @@ ul#headerButtons li {
 	cursor: pointer;
 }
 
-ul#headerButtons li:hover {
+.navbuttons:hover {
 	background-color: rgb(110, 110, 110);
 }
 
-ul#headerButtons li:active {
+.navbuttons:active {
 	box-shadow: 0 5px rgb(126, 126, 126);
 	transform: translateY(1px);
   }

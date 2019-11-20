@@ -5,11 +5,11 @@ class NavBar extends Component {
       return (
           <header>
               <ul id="headerButtons">
-                  <li className="heimButton"><Link to="">Heim</Link></li>
-                  <li className="verkefniButton"><Link to="/verkefni">Verkefni</Link></li>
-                  <li className="starfsmennButton"><Link to="/starfsmenn">Starfsmenn</Link></li>
-                  <li className="samstarfButton"><Link to="/samstarfsadilar">Samstarfsaðilar</Link></li>
-                  <li className="birgjarButton"><Link to="/birgjar">Birgjar</Link></li>
+                  <Link className="navbuttons" to="">Heim</Link>
+                  <Link className="navbuttons" to="/verkefni">Verkefni</Link>
+                  <Link className="navbuttons" to="/starfsmenn">Starfsmenn</Link>
+                  <Link className="navbuttons" to="/samstarfsadilar">Samstarfsaðilar</Link>
+                  <Link className="navbuttons" to="/birgjar">Birgjar</Link>
               </ul>
           </header>
       )
