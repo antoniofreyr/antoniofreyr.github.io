@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { browserHistory } from 'react-router';
-import HomePage from './HomePage';
-import NavBar from './HeaderComponent/NavBar';
-import Footer from './FooterComponent/Footer';
-import Verkefni from './Verkefni';
-import Starfsmenn from './Starfsmenn';
-import Samstarfsaðilar from './Samstarfsaðilar';
-import Birgjar from './Birgjar';
-import '../styles.css';
+import HomePage from './Components/Homepage';
+import NavBar from './Components/HeaderComponent/NavBar';
+import Footer from './Components/FooterComponent/Footer';
+import Verkefni from './Components/Verkefni';
+import Starfsmenn from './Components/Starfsmenn';
+import Samstarfsaðilar from './Components/Samstarfsaðilar';
+import Birgjar from './Components/Birgjar';
+import './App.css';
 class App extends Component {
     render() {
         return (
