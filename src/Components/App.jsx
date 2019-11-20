@@ -8,6 +8,7 @@ import Verkefni from './Verkefni';
 import Starfsmenn from './Starfsmenn';
 import Samstarfsaðilar from './Samstarfsaðilar';
 import Birgjar from './Birgjar';
+import '../styles.css';
 class App extends Component {
     render() {
         return (
@@ -15,10 +16,10 @@ class App extends Component {
                 <div>
                     <NavBar />
                     <Route name="home" exact path="/" component={HomePage} />
-                    <Verkefni />
-                    <Starfsmenn />
-                    <Samstarfsaðilar />
-                    <Birgjar />
+                    <Route name="verkefni" exact path="/verkefni" component={Verkefni} />
+                    <Route name="starfsmenn" exact path="/starfsmenn" component={Starfsmenn} />
+                    <Route name="Samstarfsaðilar" exact path="/samstarfsadilar" component={Samstarfsaðilar} />
+                    <Route name="birgjar" exact path="/birgjar" component={Birgjar} />
                     <Footer />
                 </div>
             </Router>
