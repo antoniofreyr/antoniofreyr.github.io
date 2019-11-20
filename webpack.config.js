@@ -2,6 +2,7 @@ const path = require('path');
 const SRC_DIR = path.join(__dirname, '/src');
 const DIST_DIR = path.join(__dirname, '/dist');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: `${SRC_DIR}/index.jsx`,
     output: {
@@ -13,6 +14,7 @@ module.exports = {
     },
     module: {
         rules: [
+
             {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
@@ -27,6 +29,7 @@ module.exports = {
             },
             {
                 test: /\.jsx?/,
+                exclude: /node_modules/,
                 include: SRC_DIR,
                 loader: 'babel-loader',
                 query: {
@@ -35,9 +38,21 @@ module.exports = {
             }
         ]
     },
+    watch: true,
+    devServer: {
+      contentBase: path.join(__dirname, 'dist'),
+      compress: true,
+      port: 9000,
+      open: true,
+      historyApiFallback: true
+    },
     plugins: [
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify('production')
-        })
+        }),
+        new HtmlWebpackPlugin({
+        template: './src/index.html',
+        filename:'./index.html'
+    })
     ]
 };

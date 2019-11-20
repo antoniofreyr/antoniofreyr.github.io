@@ -1,0 +1,55 @@
+header {
+	background-color: tan;
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+#headerButtons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+	color: white;
+}
+
+ul#headerButtons {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	text-align: center;
+}
+
+ul#headerButtons li {
+	background-color: rgb(167, 167, 167) ;
+	border: solid 2px;
+	border-color: rgb(110, 110, 110);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 10px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+
+ul#headerButtons li:hover {
+	background-color: rgb(110, 110, 110);
+}
+
+ul#headerButtons li:active {
+	box-shadow: 0 5px rgb(126, 126, 126);
+	transform: translateY(1px);
+  }
+
+.HomeScreen {
+	text-align: center;
+}
