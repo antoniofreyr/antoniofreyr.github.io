@@ -3,9 +3,9 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <div>
-                    farts uh oh....STINKY!! POOP!!!!!!! AHAHAHAHAHAHHHAHAHHAHHAHAHAHH FUNNY POOPIES!!!!!!!!!!!
-                </div>
+                <h4>Sími: 123-1234</h4>
+                <a href="mailto: example@example"><h4>Netfang: example@example</h4></a>
+                <h6>@2019 Created by nonNameCompanyCorp</h6>
             </footer>
         )
     }
