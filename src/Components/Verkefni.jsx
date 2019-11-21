@@ -23,7 +23,6 @@ class Verkefni extends Component {
   
                 </div>
                 <div className="verkefnatextaContainer">
-                    <a>
                         <h2>
                             Hótel Húsafell
                         </h2>
@@ -31,7 +30,6 @@ class Verkefni extends Component {
                         <h2>
                             Hótel Reykholt
                         </h2>
-                    </a>
                 </div>
                 <div className="verkefnaContainer">
 
@@ -42,14 +40,12 @@ class Verkefni extends Component {
                 </div>
 
                 <div className="verkefnatextaContainer2">
-                    <a>
                         <h2>
                             Húsafell Bistro
                         </h2>                    
                         <h2>
                             Krauma
                         </h2>
-                    </a>
                 </div>
 
                 <div className="verkefnaContainer">
@@ -61,7 +57,6 @@ class Verkefni extends Component {
                 </div>
 
                 <div className="verkefnatextaContainer3">
-                    <a>
                         <h2>
                             Grunnskólinn Borgarnesi
                         </h2>
@@ -69,7 +64,6 @@ class Verkefni extends Component {
                         <h2>
                             Digranesgata 4
                         </h2>
-                    </a>
                 </div>
 
                 <div className="verkefnaContainer">
@@ -81,7 +75,6 @@ class Verkefni extends Component {
                 </div>
 
                 <div className="verkefnatextaContainer4">
-                    <a>
                         <h2>
                             Leikslólinn við GBF
                         </h2>
@@ -89,7 +82,6 @@ class Verkefni extends Component {
                         <h2>
                             Einbýlishús
                         </h2>
-                    </a>
                 </div>
 
                 <div className="verkefnaContainer">
@@ -101,7 +93,6 @@ class Verkefni extends Component {
                 </div>
 
                 <div className="verkefnatextaContainer5">
-                    <a>
                         <h2>
                             Sumarbústaðir
                         </h2>
@@ -109,7 +100,6 @@ class Verkefni extends Component {
                         <h2>
                             Veitingastaður á Arnastapa
                         </h2>   
-                    </a>
                 </div>
 
             </div>
