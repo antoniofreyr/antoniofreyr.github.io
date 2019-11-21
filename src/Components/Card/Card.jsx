@@ -4,7 +4,7 @@ import styles from "./Card.module.css";
 const Card = ({ name, title, phone, email, image }) => {
     return ( 
         <div className={styles.cardContainer}>
-            <img className={styles.cardImage} src={image} />
+            <img className={styles.cardImage} src={image} alt="Employee" draggable="false" />
             <div className={styles.textContainer}>
                 <h2>{name}</h2>
                 <h3>{title}</h3>
