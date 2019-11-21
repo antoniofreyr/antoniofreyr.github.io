@@ -53,3 +53,10 @@ ul#headerButtons li:active {
 .HomeScreen {
 	text-align: center;
 }
+
+.cardsContainer {
+	width: 940px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
