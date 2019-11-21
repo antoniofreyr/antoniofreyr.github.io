@@ -4,36 +4,65 @@ class Verkefni extends Component {
         return (
             <div>
                 <h1>Verkefni</h1>
-                <p>
-                    Hótel Húsafell
-                </p>
-                <p>
-                    Bistro Húsafell
-                </p>
-                <p>
-                    Hótel Reykholt
-                </p>
-                <p>
-                    Krauma
-                </p>
-                <p>
-                    Grunnskólinn Borgarnesi
-                </p>
-                <p>
-                    Digranesgata 4
-                </p>
-                <p>
-                    Leikskólinn við GBF
-                </p>
-                <p>
-                    Einbýlishús
-                </p>
-                <p>
-                    Sumarbústaðir
-                </p>
-                <p>
-                    Veitingastaður á Arnastapa
-                </p>
+                <div className="verkcontainer">
+                    <h2>
+                        Hótel Húsafell
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Bistro Húsafell
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Hótel Reykholt
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Krauma
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Grunnskólinn Borgarnesi
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Digranesgata 4
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Leikslólinn við GBF
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Einbýlishús
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Sumarbústaðir
+                    </h2>
+                </div>
+
+                <div className="verkcontainer">
+                    <h2>
+                        Veitingastaður á Arnastapa
+                    </h2>
+                </div>
 
             </div>
         )

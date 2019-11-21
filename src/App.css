@@ -1,3 +1,20 @@
+/*
+FALLEGIR LITIR HEHE
+	#1A1A1D
+	#4E4E50
+	#6F2232
+	#950740
+	#C3073F
+
+
+ANNAÐ FALLEGT COLOR SCHEME
+	#FAED26
+	#46344E
+	#5A5560
+	#9D8D8F
+	#9B786F
+*/
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -6,10 +23,11 @@ main {
 	align-items: center;
 }
 header {
-	background-color:  #FF6766;
+	background-color:  #46344E;
 	width: 100%;
 	height: 100px;
 	color: white;
+	
 }
 #headerButtons {
 	list-style-type: none;
@@ -18,15 +36,17 @@ header {
 }
 h1 {
 	text-align: center;
+	color: #FAED26;
 }
 footer {
 	display: block;
 	width: 100%;
 	height: 50px;
-	background-color: #FF6766;
+	background-color: #5a5560;
 	color: white;
 	text-align: center;
 	margin-top: auto;
+	
 }
 
 ul#headerButtons {
@@ -44,6 +64,9 @@ ul#headerButtons {
 	align-items: center;
 
 }
+p {
+	color: #eeeeee;
+}
 .birgjalogo {
 	width: 150px;
 	height: auto;
@@ -55,9 +78,14 @@ ul#headerButtons {
 .lastH2 {
 	min-width: 133px;
 }
+h2 {
+	color: #FAED26;
+}
 body {
-	background: #eeeeee;
+	background: #46344E;
 	overflow-x:hidden;
+	color: white;
+	font-family: 'Alata', sans-serif;
 }
 .fade-in {
 	-webkit-animation: fade-in 0.5s linear both;

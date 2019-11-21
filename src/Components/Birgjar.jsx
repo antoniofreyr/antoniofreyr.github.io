@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import raflogo from '../Assets/rafkauplogo.png'
-import lumexlogo from '../Assets/lumexlogo.jpg'
+import raflogo from '../Assets/Logo/rafkauplogo.png'
+import lumexlogo from '../Assets/Logo/lumexlogo.jpg'
 class Birgjar extends Component {
     render() {
         return (
