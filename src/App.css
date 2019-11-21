@@ -100,7 +100,76 @@ body {
 	-webkit-animation: slide-left 0.5s linear both;
 	        animation: slide-left 0.5s linear both;
 }
+.verkefnatextaContainer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer a h2 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer2 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer2 a h2 {
+	margin-left: 70px;
+	margin-right: 140px;
+}
+.verkefnatextaContainer3 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer3 a h2 {
+	margin-left: 60px;
+	margin-right: 150px;
+}
+.verkefnatextaContainer4 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer4 a h2 {
+	margin-left: 60px;
+	margin-right: 140px;
+}
+.verkefnatextaContainer5 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.verkefnatextaContainer5 a h2 {
+	margin-left: 170px;
+	margin-right: 30px;
+}
 
+.verkefnaContainer{
+	min-height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.verkefnaContainer img {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.verkefnimynd {
+	width: 800px;
+	height: auto;
+}
 /* fallegir takkar */
 
 .navbuttons {
@@ -131,8 +200,8 @@ body {
     border-bottom-width: 1px;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
+    border-top-color: rgba(250,237,38,0.5);
+    border-bottom-color: rgba(250,237,38,0.5);
     transform: scale(0.1, 1);
 }
 .navbuttons:hover span {
@@ -168,8 +237,12 @@ a {
 }
 a:hover {
 	background: rgba(white, 1);
-	color: rgb(0, 0, 0);
+	color: #FAED26;
 }
+
+/*
+	fallegir takkar búnir
+*/
 .HomeScreen {
 	text-align: center;
 }
