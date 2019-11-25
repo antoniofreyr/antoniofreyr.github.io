@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './Components/Homepage';
 import NavBar from './Components/HeaderComponent/NavBar';
 import Footer from './Components/FooterComponent/Footer';
@@ -12,16 +12,15 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <main>
                     <NavBar />
-                    <Route name="home" exact path="/" component={HomePage} />
-                    <Route name="verkefni" exact path="/verkefni" component={Verkefni} />
-                    <Route name="starfsmenn" exact path="/starfsmenn" component={Starfsmenn} />
-                    <Route name="Samstarfsaðilar" exact path="/samstarfsadilar" component={Samstarfsaðilar} />
-                    <Route name="birgjar" exact path="/birgjar" component={Birgjar} />
-                    
+                    <main>
+                        <Route name="home" exact path="/" component={HomePage} />
+                        <Route name="verkefni" exact path="/verkefni" component={Verkefni} />
+                        <Route name="starfsmenn" exact path="/starfsmenn" component={Starfsmenn} />
+                        <Route name="Samstarfsaðilar" exact path="/samstarfsadilar" component={Samstarfsaðilar} />
+                        <Route name="birgjar" exact path="/birgjar" component={Birgjar} />
+                    </main>
                     <Footer />
-                </main>
             </Router>
         )
     }
