@@ -90,15 +90,20 @@ class Starfsmenn extends Component {
       }
 
     render() {
-        const cards = this.state.employees.map(emp => (
-            <Card 
-                name={emp.name}
-                title={emp.title}
-                phone={emp.phone}
-                email={emp.email}
-                image={emp.image}
-            />
-        ));
+        let duration = 0.2;
+        const cards = this.state.employees.map(emp => { 
+            duration += 0.3;
+            return (
+                <Card 
+                    name={emp.name}
+                    title={emp.title}
+                    phone={emp.phone}
+                    email={emp.email}
+                    image={emp.image}
+                    animateDuration={duration}
+                />
+            )
+        });
         return (
             <div>
                 <h1>Starfsmenn</h1>
