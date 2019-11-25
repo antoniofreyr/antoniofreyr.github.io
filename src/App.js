@@ -12,15 +12,15 @@ class App extends Component {
     render() {
         return (
             <Router>
+                <main>
                     <NavBar />
-                    <main>
                         <Route name="home" exact path="/" component={HomePage} />
                         <Route name="verkefni" exact path="/verkefni" component={Verkefni} />
                         <Route name="starfsmenn" exact path="/starfsmenn" component={Starfsmenn} />
                         <Route name="Samstarfsaðilar" exact path="/samstarfsadilar" component={Samstarfsaðilar} />
                         <Route name="birgjar" exact path="/birgjar" component={Birgjar} />
-                    </main>
                     <Footer />
+                </main>
             </Router>
         )
     }

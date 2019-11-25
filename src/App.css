@@ -19,7 +19,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	justify-content: center;
 	align-items: center;
 }
 header {
@@ -261,8 +260,25 @@ a:hover {
 
 
 .HomeScreen {
-	text-align: center;
+	position: relative;
+	text-align: right;
+	width: 90%;
 }
+
+.HomeScreen img {
+	display: block;
+	width: 50%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.homeTextContainer {
+	position: absolute;;
+	right: 32%;
+	top: 30%;
+}
+
 
 .cardsContainer {
 	width: 940px;
