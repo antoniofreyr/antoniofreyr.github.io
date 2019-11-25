@@ -19,7 +19,7 @@ module.exports = {
             "title": "Starfsmaður",
             "phone": "432-1235",
             "email": "example@example.com",
-            "image": "http://via.placeholder.com/500"
+            "image": require("./employees/hannes.jpg")
         },
         {
             "name": "Þorgeir",
