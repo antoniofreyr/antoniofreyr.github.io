@@ -131,4 +131,12 @@ module.exports = {
         }
 
     ],
+    "arnarInfo" : 
+        {
+            "name": "Arnar Hólmarsson",
+            "phone": "861 3515",
+            "email": "arnar@vesturland.is",
+            "location": "Túngata 14"
+        }
+    ,
 }

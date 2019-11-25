@@ -1,15 +1,4 @@
 import React, { Component } from 'react';
-import hhusafell from "../Assets/projects/hotelhusaimg.png";
-import hreykholt from "../Assets/projects/hotelreykholtimg.jpg";
-import husafellbistro from "../Assets/projects/husafellbistroimg.jpg";
-import krauma from "../Assets/projects/kraumaimg.jpg";
-import grunnborg from "../Assets/projects/grunnborgimg.jpg";
-import foodstation from "../Assets/projects/foodstationimg.jpg";
-import leikskoli from "../Assets/projects/leikskoliimg.png";
-import einbylishus from "../Assets/projects/einbylishusimg.jpg";
-import sumarbustadir from "../Assets/projects/sumarhusimg.jpg";
-import arnarstapi from "../Assets/projects/arnarstapiimg.jpg";
-import { Link } from 'react-router-dom';
 import { Projects } from "../Assets/content.js";
 import Project from "./Project/Project";
 
