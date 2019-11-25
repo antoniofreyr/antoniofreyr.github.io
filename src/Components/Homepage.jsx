@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import IcelandLogo from "../Assets/Iceland.svg";
+import { arnarInfo } from "../Assets/content.js";
 class HomePage extends Component {
     render() {
         return (
@@ -10,13 +11,14 @@ class HomePage extends Component {
                         Arnar Rafvirki
                     </h1>
                     <h3>
-                        Sími: 861-3515  
+                        Sími: {arnarInfo.phone}  
+                    </h3>
+                    
+                    <h3>
+                    <a href={`mailto: ${arnarInfo.email}`}>Netfang: {arnarInfo.email}</a>
                     </h3>
                     <h3>
-                        Netfang: arnar@arnar.is
-                    </h3>
-                    <h3>
-                        Staðsetning: Hvanneyri, 311 Borgarnes
+                        Staðsetning: {arnarInfo.location}
                     </h3>
                 </div>
 

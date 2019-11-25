@@ -135,8 +135,8 @@ module.exports = {
         {
             "name": "Arnar Hólmarsson",
             "phone": "861 3515",
-            "email": "arnar@vesturland.is",
-            "location": "Túngata 14"
+            "email": "arnar@arnar.is",
+            "location": "Hvanneyri, 311 Borgarnes"
         }
     ,
 }

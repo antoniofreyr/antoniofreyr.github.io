@@ -199,7 +199,12 @@ a:hover {
 	fallegir takkar búnir
 */
 
-
+.HomeScreen h3{
+	color: #9D8D8F;
+}
+.HomeScreen a{
+	color: #9D8D8F;
+}
 .HomeScreen {
 	position: relative;
 	text-align: right;
