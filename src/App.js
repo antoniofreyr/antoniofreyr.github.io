@@ -19,6 +19,7 @@ class App extends Component {
                     <Route name="starfsmenn" exact path="/starfsmenn" component={Starfsmenn} />
                     <Route name="Samstarfsaðilar" exact path="/samstarfsadilar" component={Samstarfsaðilar} />
                     <Route name="birgjar" exact path="/birgjar" component={Birgjar} />
+                    
                     <Footer />
                 </main>
             </Router>
