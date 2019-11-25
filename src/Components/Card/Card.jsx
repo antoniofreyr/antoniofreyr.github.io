@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Card.module.css";
+import PropTypes from 'prop-types'
 
 const Card = ({ name, title, phone, email, image, animateDuration }) => {
     return ( 
@@ -13,6 +14,24 @@ const Card = ({ name, title, phone, email, image, animateDuration }) => {
             </div>
         </div> 
     );
+}
+
+Card.propTypes = {
+    name: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    phone: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+      ]),
+    email: PropTypes.string,
+    image: PropTypes.string,
+    animateDuration: PropTypes.number,
+}
+
+Card.defaultProps = {
+    phone: "Ekki gefið",
+    email: "Ekki gefið",
+    animateDuration: 0,
 }
  
 export default Card
