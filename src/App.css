@@ -179,13 +179,11 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.verkefnaContainer img {
-	padding-left: 100px;
-	padding-right: 100px;
-}
+
 .verkefnimynd {
 	width: 800px;
-	height: auto;
+	height: 600px;
+	display: block;
 }
 /* fallegir takkar */
 
@@ -261,66 +259,7 @@ a:hover {
 	fallegir takkar búnir
 */
 
-/*
-	verkefna takkar
-*/
-#nav3.verkefniNav {
-	padding-right: 420px;
-}
-#nav9 {
-	padding-right: 350px;
-}
 
-.verkefniNav {
-	color: #FFF;
-	transition: all 0.3s;
-	position: relative;
-	padding: 15px 32px;
-	line-height: 50px;
-	height: 50px;
-	text-align: center;
-	width: 250px;
-	cursor: pointer;
-	padding-right: 400px;
-	padding-left: 400px; 
-}
-.verkefniNav:hover span {
-	letter-spacing: 2px;
-}
-.verkefniNav:hover::before {
-	opacity: 1;
-	transform: scale(1, 1);
-}
-.verkefniNav::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transition: all 0.3s;
-	background-color: rgba(255,255,255,0.1);
-}
-.verkefniNav::after {
-	opacity: 0;
-	transform: scale(0.1, 1);
-}
-.verkefniNav::before {
-	content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    transform: scale(0.1, 1);
-}
-/*
-	verkefna takkar bunir
-*/
 .HomeScreen {
 	text-align: center;
 }
@@ -353,6 +292,63 @@ a:hover {
 	-webkit-animation: fade-in 0.5s linear both;
 	animation: fade-in 0.5s linear both;
 }
+
+/*
+	fade in text fyirir verkefna myndir
+*/
+
+.HoverImg * {
+	box-sizing: border-box;
+}
+.HoverImg {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	/*max-width: 100%;*/
+	height: auto;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.HoverImg img {
+	/*max-width: 100%;*/
+}
+
+.HoverImg .HoverImg-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.HoverImg:hover .HoverImg-layer_top,
+.HoverImg.active .HoverImg-layer_top {
+	opacity: 1;
+}
+.HoverImg .HoverImg-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+/*
+	fade in text buið
+*/
 
 
 /**
