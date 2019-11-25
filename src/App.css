@@ -260,6 +260,67 @@ a:hover {
 /*
 	fallegir takkar búnir
 */
+
+/*
+	verkefna takkar
+*/
+#nav3.verkefniNav {
+	padding-right: 420px;
+}
+#nav9 {
+	padding-right: 350px;
+}
+
+.verkefniNav {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+	padding: 15px 32px;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+	padding-right: 400px;
+	padding-left: 400px; 
+}
+.verkefniNav:hover span {
+	letter-spacing: 2px;
+}
+.verkefniNav:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.verkefniNav::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.verkefniNav::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
+.verkefniNav::before {
+	content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: scale(0.1, 1);
+}
+/*
+	verkefna takkar bunir
+*/
 .HomeScreen {
 	text-align: center;
 }
@@ -272,6 +333,26 @@ a:hover {
 	justify-content: space-evenly;
 }
 
+.verkefnaAnimation5 {
+	-webkit-animation: fade-in 2.5s linear both;
+	animation: fade-in 2.5s linear both;
+}
+.verkefnaAnimation4 {
+	-webkit-animation: fade-in 2.0s linear both;
+	animation: fade-in 2.0s linear both;
+}
+.verkefnaAnimation3 {
+	-webkit-animation: fade-in 1.5s linear both;
+	animation: fade-in 1.5s linear both;
+}
+.verkefnaAnimation2 {
+	-webkit-animation: fade-in 1.0s linear both;
+	animation: fade-in 1.0s linear both;
+}
+.verkefnaAnimation1 {
+	-webkit-animation: fade-in 0.5s linear both;
+	animation: fade-in 0.5s linear both;
+}
 
 
 /**
