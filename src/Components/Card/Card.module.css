@@ -25,10 +25,6 @@
     justify-content: center;
 }
 
-.textContent a {
-    
-}
-
 @-webkit-keyframes fade-in {
     0% { opacity: 0; }
     40% {opacity: 0;}
