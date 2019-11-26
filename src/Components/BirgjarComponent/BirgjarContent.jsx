@@ -1,0 +1,38 @@
+import React from "react";
+import styles from "./BirgSamContent.module.css";
+
+const BirgjarContent = ({ logo, text, link ,slideLeft}) => {
+    console.log(slideLeft);
+    if (slideLeft) {
+        return ( 
+            <div>
+                <div className={styles.birgjarContainer}>
+                    <a href={link}>
+                        <img className={styles.birgjarlogo} src={logo} alt="Birgjar" draggable="false" />
+                    </a>
+                    <p className={styles.birgjartexti1}>
+                        {text}
+                    </p>
+    
+                </div>
+            </div> 
+        );
+    } else {
+        return ( 
+            <div>
+                <div className={styles.birgjarContainer}>
+                    <p className={styles.birgjartexti2}>
+                        {text}
+                    </p>
+                    <a href={link}>
+                        <img className={styles.birgjarlogo} src={logo} alt="Birgjar" draggable="false" />
+                    </a>
+                </div>
+            </div> 
+        );
+    }
+
+    
+}
+ 
+export default BirgjarContent

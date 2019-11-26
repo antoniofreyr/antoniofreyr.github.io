@@ -15,7 +15,7 @@ class HomePage extends Component {
                     </h3>
                     
                     <h3>
-                    <a href={`mailto: ${arnarInfo.email}`}>Netfang: {arnarInfo.email}</a>
+                        <a href={`mailto: ${arnarInfo.email}`}>Netfang: {arnarInfo.email}</a>
                     </h3>
                     <h3>
                         Staðsetning: {arnarInfo.location}
