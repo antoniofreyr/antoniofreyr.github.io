@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Project.module.css";
+import PropTypes from 'prop-types'
 
 const Project = ({ name, text, image, animateDuration }) => {
     return ( 
@@ -18,5 +19,15 @@ const Project = ({ name, text, image, animateDuration }) => {
         </div> 
     );
 }
- 
+Project.propTypes = {
+    name: PropTypes.string.isRequired,
+    text: PropTypes.string,
+    image: PropTypes.string,
+    animateDuration: PropTypes.number,
+}
+
+Project.defaultProps = {
+    text: " ",
+    animateDuration: 0,
+} 
 export default Project

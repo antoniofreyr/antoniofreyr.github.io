@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BirgSamContent.module.css";
-
+import PropTypes from 'prop-types';
 const SamstarfsadilarContent = ({ name, text, slideLeft}) => {
     console.log(slideLeft);
     if (slideLeft) {
@@ -29,6 +29,15 @@ const SamstarfsadilarContent = ({ name, text, slideLeft}) => {
     }
 
     
+}
+SamstarfsadilarContent.propTypes = {
+    name: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    slideLeft: PropTypes.bool,
+}
+
+SamstarfsadilarContent.defaultProps = {
+    slideLeft: true,
 }
  
 export default SamstarfsadilarContent

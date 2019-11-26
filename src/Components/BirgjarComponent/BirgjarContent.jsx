@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BirgSamContent.module.css";
-
+import PropTypes from 'prop-types';
 const BirgjarContent = ({ logo, text, link ,slideLeft}) => {
     console.log(slideLeft);
     if (slideLeft) {
@@ -33,6 +33,18 @@ const BirgjarContent = ({ logo, text, link ,slideLeft}) => {
     }
 
     
+}
+BirgjarContent.propTypes = {
+    logo: PropTypes.string,
+    text: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    animateDuration: PropTypes.bool,
+}
+
+BirgjarContent.defaultProps = {
+    logo: "Ekkert logo",
+    email: "ekki gefið",
+    animateDuration: true,
 }
  
 export default BirgjarContent
