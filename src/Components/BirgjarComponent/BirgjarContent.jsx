@@ -38,13 +38,12 @@ BirgjarContent.propTypes = {
     logo: PropTypes.string,
     text: PropTypes.string.isRequired,
     link: PropTypes.string,
-    animateDuration: PropTypes.bool,
+    slideLeft: PropTypes.bool,
 }
 
 BirgjarContent.defaultProps = {
-    logo: "Ekkert logo",
     email: "ekki gefið",
-    animateDuration: true,
+    slideLeft: true,
 }
  
 export default BirgjarContent
