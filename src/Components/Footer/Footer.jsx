@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { arnarInfo } from "../../Assets/content.js";
+import  "./Footer.module.css"
+
 class Footer extends Component {
     render() {
         
