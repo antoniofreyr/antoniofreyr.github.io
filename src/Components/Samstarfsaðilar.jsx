@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
+import { samstarfsadilarInfo } from "../Assets/content.js";
+import SamstarfsadilarContents from "./BirgjarComponent/SamstarfsadilarContent";
+
 class Samstarfsaðilar extends Component {
     render() {
-        return (
+        console.log(samstarfsadilarInfo);
+        let left = true
+        const samContent = samstarfsadilarInfo.map(birg => {
+            left = !left;
+            return (
+                <SamstarfsadilarContents
+                    key={birg.name}
+                    name={birg.name}
+                    text={birg.text}
+                    slideLeft={left}
+                    />
+            )
+        });
+        return(
             <div>
                 <h1>Samstarfsaðilar</h1>
-                    <div className="samContainer">
-                        <h2 className="fade-in">EJI</h2>
-                        <p className="slide-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <div className="samContainer">
-                        <p className="slide-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <h2 className="fade-in lastH2">PJ Bygginar</h2>
-                    </div>
-
-                   
+                <div>
+                    {samContent}
+                </div>
             </div>
         )
+        
     }
 }
 export default Samstarfsaðilar;

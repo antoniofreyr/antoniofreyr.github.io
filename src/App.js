@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './Components/Homepage';
-import NavBar from './Components/HeaderComponent/NavBar';
-import Footer from './Components/FooterComponent/Footer';
+import NavBar from './Components/Header/NavBar';
+import Footer from './Components/Footer/Footer';
 import Verkefni from './Components/Verkefni';
 import Starfsmenn from './Components/Starfsmenn';
 import Samstarfsaðilar from './Components/Samstarfsaðilar';
