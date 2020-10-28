@@ -2,29 +2,29 @@ module.exports = {
     "employees": [
         {
             "name": "Arnar Hólmarsson",
-            "title": "Starfsmaður",
-            "phone": "432-1235",
-            "email": "example@example.com",
+            "title": "Eigandi",
+            "phone": "861-3515",
+            "email": "arnar@arnar.is",
             "image": require("./employees/arnarholm.jpg")
         },
         {
-            "name": "Gísli Már",
+            "name": "Gísli Már Arnarsson",
             "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "868-8882",
             "email": "example@example.com",
             "image": "http://via.placeholder.com/500"
         },
         {
             "name": "Hannes Þór",
             "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "895-4673",
             "email": "example@example.com",
             "image": require("./employees/hannes.jpg")
         },
         {
-            "name": "Þorgeir",
+            "name": "Þorgeir Þorsteinsson",
             "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "849-1235",
             "email": "example@example.com",
             "image": "http://via.placeholder.com/500"
         },
@@ -38,42 +38,28 @@ module.exports = {
         {
             "name": "Jón á Báreksstöðum",
             "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "845-2734",
             "email": "example@example.com",
             "image": "http://via.placeholder.com/500"
         },
         {
-            "name": "Jónas",
+            "name": "Jónas Guðjónsson",
             "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "861-8521",
             "email": "example@example.com",
             "image": "http://via.placeholder.com/500"
         },
         {
-            "name": "Anton Freyr",
+            "name": "Anton Freyr Arnarsson",
             "title": "Starfsmaður",
-            "phone": "432-1235",
-            "email": "example@example.com",
+            "phone": "846-7445",
+            "email": "antonarnarsson@gmail.com",
             "image": require("./employees/antonfreyr.jpg")
         },
         {
-            "name": "Hjörvar Óli",
+            "name": "Áslaug Ella Gísladóttir",
             "title": "Starfsmaður",
-            "phone": "432-1235",
-            "email": "example@example.com",
-            "image": "http://via.placeholder.com/500"
-        },
-        {
-            "name": "Sigurður Óskar",
-            "title": "Starfsmaður",
-            "phone": "432-1235",
-            "email": "example@example.com",
-            "image": "http://via.placeholder.com/500"
-        },
-        {
-            "name": "Áslaug Ella",
-            "title": "Starfsmaður",
-            "phone": "432-1235",
+            "phone": "861-3415",
             "email": "example@example.com",
             "image": "http://via.placeholder.com/500"
         }
@@ -81,57 +67,57 @@ module.exports = {
     "Projects": [
         {
             "name": "Hótel Húsafell",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/hotelhusaimg.png")
         },
         {
             "name": "Hótel Reykholt",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/hotelreykholtimg.jpg")
         },
         {
             "name": "Húsafell Bistro",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/husafellbistroimg.jpg")
         },
         {
             "name": "Krauma",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/kraumaimg.jpg")
         },
         {
             "name": "Grunnskólinn Borgarnesi",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/grunnborgimg.jpg")
         },
         {
             "name": "Digranesgata 4",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/foodstationimg.jpg")
         },
         {
             "name": "Leikskólinn við GBF",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/leikskoliimg.png")
         },
         {
             "name": "Einbýlishús",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/einbylishusimg.jpg")
         },
         {
             "name": "Sumarbústaðir",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/sumarhusimg.jpg")
         },
         {
             "name": "Veitingastaður á Arnastapa",
-            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI", 
+            "text": "SETJA TEXTA HÉRNA UM ÞETTA VERKEFNI",
             "image": require("./projects/arnarstapiimg.jpg")
         }
 
     ],
-    "arnarInfo" : 
+    "arnarInfo" :
         {
             "name": "Arnar Hólmarsson",
             "phone": "861 3515",
