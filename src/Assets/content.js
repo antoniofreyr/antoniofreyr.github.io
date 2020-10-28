@@ -15,7 +15,7 @@ module.exports = {
             "image": "http://via.placeholder.com/500"
         },
         {
-            "name": "Hannes Þór",
+            "name": "Hannes Bjarki Þorsteinsson",
             "title": "Starfsmaður",
             "phone": "895-4673",
             "email": "example@example.com",
@@ -29,7 +29,7 @@ module.exports = {
             "image": "http://via.placeholder.com/500"
         },
         {
-            "name": "Bergþór Ægir",
+            "name": "Bergþór Ægir Ríkharðsson",
             "title": "Starfsmaður",
             "phone": "432-1235",
             "email": "example@example.com",
@@ -54,13 +54,13 @@ module.exports = {
             "title": "Starfsmaður",
             "phone": "846-7445",
             "email": "antonarnarsson@gmail.com",
-            "image": require("./employees/antonfreyr.jpg")
+            "image": require("./employees/antonDK.jpg")
         },
         {
             "name": "Áslaug Ella Gísladóttir",
-            "title": "Starfsmaður",
+            "title": "Bókari",
             "phone": "861-3415",
-            "email": "example@example.com",
+            "email": "aslaug@vesturland.is",
             "image": "http://via.placeholder.com/500"
         }
     ],

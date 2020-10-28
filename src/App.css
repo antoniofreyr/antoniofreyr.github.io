@@ -13,10 +13,13 @@ ANNAÐ FALLEGT COLOR SCHEME
 	#5A5560
 	#9D8D8F
 	#9B786F
+
+Blár lítur - anton
+0E3061
 */
 
 body {
-	background: #46344E;
+	background: #0E3061;
 	overflow-x:hidden;
 	color: white;
 	font-family: 'Alata', sans-serif;
@@ -217,7 +220,7 @@ a:hover {
 			  opacity: 1;
 	}
   }
-  
+
 
     /**
  * ----------------------------------------
