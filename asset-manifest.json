@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/antoniofreyr.github.io.git/static/css/main.69f760a4.chunk.css",
+    "main.js": "/antoniofreyr.github.io.git/static/js/main.cf76c708.chunk.js",
+    "main.js.map": "/antoniofreyr.github.io.git/static/js/main.cf76c708.chunk.js.map",
+    "runtime-main.js": "/antoniofreyr.github.io.git/static/js/runtime-main.44e35a8e.js",
+    "runtime-main.js.map": "/antoniofreyr.github.io.git/static/js/runtime-main.44e35a8e.js.map",
+    "static/js/2.f4241b2d.chunk.js": "/antoniofreyr.github.io.git/static/js/2.f4241b2d.chunk.js",
+    "static/js/2.f4241b2d.chunk.js.map": "/antoniofreyr.github.io.git/static/js/2.f4241b2d.chunk.js.map",
+    "index.html": "/antoniofreyr.github.io.git/index.html",
+    "precache-manifest.455883ff17352d3656b2881cdf850285.js": "/antoniofreyr.github.io.git/precache-manifest.455883ff17352d3656b2881cdf850285.js",
+    "service-worker.js": "/antoniofreyr.github.io.git/service-worker.js",
+    "static/css/main.69f760a4.chunk.css.map": "/antoniofreyr.github.io.git/static/css/main.69f760a4.chunk.css.map",
+    "static/media/Iceland.svg": "/antoniofreyr.github.io.git/static/media/Iceland.d46f1220.svg",
+    "static/media/VerdskraContent": "/antoniofreyr.github.io.git/static/media/VerdskraContent.33bc2a4c.bin",
+    "static/media/antonDK.jpg": "/antoniofreyr.github.io.git/static/media/antonDK.4b385afc.jpg",
+    "static/media/arnarholm.jpg": "/antoniofreyr.github.io.git/static/media/arnarholm.891a7bbd.jpg",
+    "static/media/arnarstapiimg.jpg": "/antoniofreyr.github.io.git/static/media/arnarstapiimg.1dd13f08.jpg",
+    "static/media/einbylishusimg.jpg": "/antoniofreyr.github.io.git/static/media/einbylishusimg.e7fbe626.jpg",
+    "static/media/foodstationimg.jpg": "/antoniofreyr.github.io.git/static/media/foodstationimg.ec1bde2d.jpg",
+    "static/media/giljabodimg.jpg": "/antoniofreyr.github.io.git/static/media/giljabodimg.e1d05ad8.jpg",
+    "static/media/grunnborgimg.jpg": "/antoniofreyr.github.io.git/static/media/grunnborgimg.ab4ddef2.jpg",
+    "static/media/hannes.jpg": "/antoniofreyr.github.io.git/static/media/hannes.c893858a.jpg",
+    "static/media/hotelhusaimg.png": "/antoniofreyr.github.io.git/static/media/hotelhusaimg.9effca28.png",
+    "static/media/hotelreykholtimg.jpg": "/antoniofreyr.github.io.git/static/media/hotelreykholtimg.b92c0007.jpg",
+    "static/media/husafellbistroimg.jpg": "/antoniofreyr.github.io.git/static/media/husafellbistroimg.ed362ec1.jpg",
+    "static/media/husafellbustadirimg.jpg": "/antoniofreyr.github.io.git/static/media/husafellbustadirimg.f085a733.jpg",
+    "static/media/kraumaimg.jpg": "/antoniofreyr.github.io.git/static/media/kraumaimg.743d7f09.jpg",
+    "static/media/leikskoliimg.png": "/antoniofreyr.github.io.git/static/media/leikskoliimg.de6eaf6c.png",
+    "static/media/lumexlogo.jpg": "/antoniofreyr.github.io.git/static/media/lumexlogo.b9414f8f.jpg",
+    "static/media/rafkauplogo.png": "/antoniofreyr.github.io.git/static/media/rafkauplogo.c9242a94.png",
+    "static/media/sumarhusimg.jpg": "/antoniofreyr.github.io.git/static/media/sumarhusimg.f72d7e2b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44e35a8e.js",
+    "static/js/2.f4241b2d.chunk.js",
+    "static/css/main.69f760a4.chunk.css",
+    "static/js/main.cf76c708.chunk.js"
+  ]
+}

@@ -1,0 +1,49 @@
+import React from "react";
+import styles from "./VerdskraContent.module.css";
+import PropTypes from 'prop-types';
+const VerdskraContent = ({ text, name, slideLeft}) => {
+    console.log(slideLeft);
+    if (slideLeft) {
+        return ( 
+            <div>
+                <div className={styles.verdContainer}>
+                    <p className={styles.verdtexti1}>
+                        {text}
+                    </p>
+                    <p className={styles.verdtexti1}>
+                        {name}
+                    </p>
+    
+                </div>
+            </div> 
+        );
+    } else {
+        return ( 
+            <div>
+                <div className={styles.verdContainer}>
+                    <p className={styles.verdtexti2}>
+                        {name}
+                    </p>
+                    <p className={styles.verdtexti2}>
+                        {text}
+                    </p>
+                </div>
+            </div> 
+        );
+    }
+
+    
+}
+VerdskraContent.propTypes = {
+    name: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    slideLeft: PropTypes.bool,
+}
+
+VerdskraContent.defaultProps = {
+    name: "name",
+    text: "texti",
+    slideLeft: true,
+}
+ 
+export default VerdskraContent
